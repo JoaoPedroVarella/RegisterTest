@@ -1,0 +1,1521 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#encoding: utf-8"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3880667700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Cadastrar dados com sucesso",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-dados-com-sucesso;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1181713800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3002808500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 176878800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Eu digito no campo nome \"Joao Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 199476500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Digito no campo email \"jpvarella09@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jpvarella09@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 152429200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Digito no campo senha \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 84886100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 731345700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Salvo os dados na tabela nome \"Joao Pedro\" e email \"jpvarella09@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 31
+                },
+                {
+                  "val": "jpvarella09@gmail.com",
+                  "offset": 52
+                }
+              ],
+              "location": "Register.salvoOsDadosNaTabelaNomeEEmail(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2092435200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Cadastrar dados com sucesso",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-dados-com-sucesso;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1253182700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2905865500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 149563600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Eu digito no campo nome \"Equipe Stefanini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Equipe Stefanini",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 322618000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Digito no campo email \"equipestefanini@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equipestefanini@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 113503300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Digito no campo senha \"abcdefgh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcdefgh",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 69373000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 704596700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Salvo os dados na tabela nome \"Equipe Stefanini\" e email \"equipestefanini@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Equipe Stefanini",
+                  "offset": 31
+                },
+                {
+                  "val": "equipestefanini@gmail.com",
+                  "offset": 58
+                }
+              ],
+              "location": "Register.salvoOsDadosNaTabelaNomeEEmail(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2001997600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Cadastrar dados com sucesso",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-dados-com-sucesso;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 878027400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2939026100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 141405700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Eu digito no campo nome \"Bloco de Notas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bloco de Notas",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 195569500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Digito no campo email \"blocodenotas@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blocodenotas@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 122150000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Digito no campo senha \"123abc4d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123abc4d",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 73368400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 711421800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Salvo os dados na tabela nome \"Bloco de Notas\" e email \"blocodenotas@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bloco de Notas",
+                  "offset": 31
+                },
+                {
+                  "val": "blocodenotas@gmail.com",
+                  "offset": 56
+                }
+              ],
+              "location": "Register.salvoOsDadosNaTabelaNomeEEmail(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1927142500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Cadastrar com erro no nome",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-com-erro-no-nome",
+        "after": [
+          {
+            "result": {
+              "duration": 838175700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4825572700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 121070300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Eu digito no campo nome \"J\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 160356700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Digito no campo email \"jpvarella09@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jpvarella09@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 122727400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Digito no campo senha \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 68278300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 802860800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verifico o erro gerado no campo nome",
+            "match": {
+              "location": "Register.verificoOErroGeradoNoCampoNome()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1775649500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Cadastrar com erro no email",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-com-erro-no-email",
+        "after": [
+          {
+            "result": {
+              "duration": 1260560300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2962158800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 132399300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Eu digito no campo nome \"Joao Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 131684100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Digito no campo email \"jp.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jp.br",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 106619800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Digito no campo senha \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 66675500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 785130000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Verifico o erro gerado no campo email",
+            "match": {
+              "location": "Register.verificoOErroGeradoNoCampoEmail()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1806679700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Cadastrar com erro na senha",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-com-erro-na-senha",
+        "after": [
+          {
+            "result": {
+              "duration": 832057800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2906843400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 128845000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Eu digito no campo nome \"Joao Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 163560800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Digito no campo email \"jpvarella09@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jpvarella09@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 95955300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Digito no campo senha \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 62365900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 785508500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verifico o erro gerado no campo senha",
+            "match": {
+              "location": "Register.verificoOErroGeradoNoCampoSenha()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1831100100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Cadastrar sem campo nome",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-sem-campo-nome",
+        "after": [
+          {
+            "result": {
+              "duration": 808799200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2786975600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 123953800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Digito no campo senha \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 68211900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 755866900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Verifico o erro gerado da falta de nome",
+            "match": {
+              "location": "Register.verificoOErroGeradoDaFaltaDeNome()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1768039200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Cadastrar sem campo email",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-sem-campo-email",
+        "after": [
+          {
+            "result": {
+              "duration": 1278836500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2796370700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 137941500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Eu digito no campo nome \"Joao Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 114467100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Digito no campo senha \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 93947500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 805848400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Verifico o erro gerado da falta de email",
+            "match": {
+              "location": "Register.verificoOErroGeradoDaFaltaDeEmail()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1841901500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Cadastrar sem campo senha",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-sem-campo-senha",
+        "after": [
+          {
+            "result": {
+              "duration": 1246612600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2885151600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 129707000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Eu digito no campo nome \"Joao Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 166206000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Digito no campo email \"jpvarella09@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jpvarella09@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 64134200,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 787289700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Verifico o erro gerado da falta de senha",
+            "match": {
+              "location": "Register.verificoOErroGeradoDaFaltaDeSenha()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1754154900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Cadastrar dados de dois usuarios",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-dados-de-dois-usuarios",
+        "after": [
+          {
+            "result": {
+              "duration": 867983800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3253750200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 147379300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Eu digito no campo nome \"Joao Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 178513100,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Digito no campo email \"jpvarella09@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jpvarella09@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 121439400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Digito no campo senha \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 75924700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 123397800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Eu digito no campo nome \"Equipe Stefanini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Equipe Stefanini",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 131971300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Digito no campo email \"equipestefanini@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equipestefanini@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 103411200,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Digito no campo senha \"abcdefgh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcdefgh",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 46959700,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 623034600,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Salvo os dados do primeiro nome \"Joao Pedro\" e do nome \"Equipe Stefanini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 33
+                },
+                {
+                  "val": "Equipe Stefanini",
+                  "offset": 56
+                }
+              ],
+              "location": "Register.salvoOsDadosDoPrimeiroNomeEDoNome(String,String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1870970000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "Cadastrar dados de dois usuarios e depois apagar 1",
+        "description": "",
+        "id": "cadastro-de-dados;cadastrar-dados-de-dois-usuarios-e-depois-apagar-1",
+        "after": [
+          {
+            "result": {
+              "duration": 773258900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4629545100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Que acesso o site de testes",
+            "match": {
+              "location": "Register.queAcessoOSiteDeTestes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 123581600,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Eu digito no campo nome \"Joao Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joao Pedro",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 172566700,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Digito no campo email \"jpvarella09@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jpvarella09@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 113436600,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Digito no campo senha \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 60886400,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 108419900,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Eu digito no campo nome \"Equipe Stefanini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Equipe Stefanini",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.euDigitoNoCampoNome(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 123643900,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Digito no campo email \"equipestefanini@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equipestefanini@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoEmail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 87654200,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Digito no campo senha \"abcdefgh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcdefgh",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.digitoNoCampoSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 37783200,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Clico no botao cadastrar",
+            "match": {
+              "location": "Register.clicoNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 52896500,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Deleto usuario \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 16
+                }
+              ],
+              "location": "Register.deletoUsuario(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 618027300,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verifico tabela com apenas o segundo usuario",
+            "match": {
+              "location": "Register.verificoTabelaComApenasOSegundoUsuario()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de dados",
+    "description": "",
+    "id": "cadastro-de-dados",
+    "keyword": "Funcionalidade",
+    "uri": "Register.feature"
+  }
+]
